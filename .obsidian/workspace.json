@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How hyperbolic orbit crosses box with help of Kepler equation/Kepler equation.md",
+                "file": "physics/hyperbola.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kepler equation"
+              "title": "hyperbola"
             }
           }
         ]
@@ -171,9 +171,22 @@
   },
   "active": "0f8efd52f1c4a27f",
   "lastOpenFiles": [
-    "_build/site/public/intro-45a325a0dac6adc8066fd010970f82ec.pdf",
+    "physics/fdsafdas.md",
+    "How hyperbolic orbit crosses box with help of Kepler equation/Kepler equation.md",
+    "_build/site/content/hyperbola.json",
+    "_build/site/public/hyperbola-41265d2659bf7becef99ca32e47f5001.md",
+    "physics/hyperbola.md",
+    "physics",
+    "Bez názvu",
+    "_config.yml",
+    "_build/site/myst.search.json",
+    "_build/site/myst.xref.json",
+    "_build/site/objects.inv",
+    "_build/site/config.json",
+    "_build/site/content/intro.json",
+    "_build/site/content/index.json",
     "_build/site/public/intro-5a4622e38c8880b58d42931b20805a81.md",
-    "intro.md",
-    "How hyperbolic orbit crosses box with help of Kepler equation/Kepler equation.md"
+    "_build/site/public/e18f93c1a505d76c1d42cf6b874a6a0d.png",
+    "intro.md"
   ]
 }

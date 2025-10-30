@@ -1,0 +1,4 @@
+format: jb-book
+root: index
+chapters:
+- file: How hyperbolic orbit crosses box with help of Kepler equation/Kepler equation.md
