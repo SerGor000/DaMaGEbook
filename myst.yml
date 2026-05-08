@@ -15,11 +15,9 @@ project:
     - file: intro.md
     - file: cv.md
 
-    - title: Coding
+    - title: Sampling CheatSheets
       children:
-        - title: CheatSheets
-          children:
-            - file: Coding/Cheatsheets/sampling.ipynb
+        - file: Coding/Cheatsheets/sampling.ipynb
     
   exports:
     - format: pdf
