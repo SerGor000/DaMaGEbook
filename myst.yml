@@ -4,6 +4,7 @@ project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
   title: Adam Červenka
   description: My personal projects and me
+  jupyter: true
   keywords:
     - jupyter-book
     - something-else
@@ -29,3 +30,5 @@ site:
   options:
     favicon: robin.ico
     logo: robin.png
+
+    
