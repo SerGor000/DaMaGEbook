@@ -25,6 +25,7 @@ project:
 
 site:
   template: book-theme
+  url: https://adamtherobin.github.io/me
   options:
     favicon: robin.ico
     logo: robin.png
