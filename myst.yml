@@ -22,7 +22,6 @@ project:
             - file: Coding/CheatSheets/sampling.ipynb
             - file: Coding/CheatSheets/animation.ipynb
 
-    
   exports:
     - format: pdf
       template: lapreprint-typst
