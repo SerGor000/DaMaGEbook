@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('Coding/Cheatsheets/sampling.ipynb'\\)\\); cells=nb['cells']; [print\\(f'Cell {i}: type={c[\\\\\"cell_type\\\\\"]}, outputs={len\\(c.get\\(\\\\\"outputs\\\\\",[]\\)\\)}, output_types={[o[\\\\\"output_type\\\\\"] for o in c.get\\(\\\\\"outputs\\\\\",[]\\)]}'\\) for i,c in enumerate\\(cells\\)]\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
