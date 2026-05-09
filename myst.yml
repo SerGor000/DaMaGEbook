@@ -20,6 +20,7 @@ project:
         - title: CheatSheets
           children:
             - file: Coding/CheatSheets/sampling.ipynb
+          children:
             - file: Coding/CheatSheets/animation.ipynb
 
     
