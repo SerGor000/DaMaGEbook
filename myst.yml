@@ -15,12 +15,12 @@ project:
     - file: intro.md
     - file: cv.md
     - file: Coding/CheatSheets/sampling.ipynb
-
     - title: Coding
       children:
         - title: CheatSheets
           children:
             - file: Coding/CheatSheets/animation.ipynb
+            - file: Coding/CheatSheets/sampling_old.ipynb
 
   exports:
     - format: pdf
