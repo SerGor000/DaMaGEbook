@@ -19,7 +19,7 @@ project:
       children:
         - title: CheatSheets
           children:
-            - file: Coding/CheatSheets/animation.ipynb
+            #- file: Coding/CheatSheets/animation.ipynb
             - file: Coding/CheatSheets/sampling_old.ipynb
 
   exports:
