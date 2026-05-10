@@ -14,7 +14,6 @@ project:
   toc:
     - file: intro.md
     - file: cv.md
-    - file: Coding/CheatSheets/sampling.ipynb
     - title: Coding
       children:
         - title: CheatSheets
@@ -22,6 +21,7 @@ project:
             - file: Coding/CheatSheets/animation.ipynb
             - file: Coding/CheatSheets/Sample.ipynb
             - file: Coding/CheatSheets/sampling_old.ipynb
+            - file: Coding/CheatSheets/sampling.ipynb
 
   exports:
     - format: pdf
