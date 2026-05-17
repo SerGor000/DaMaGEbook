@@ -1,4 +1,3 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 4da9cb15-177c-41f5-8c4e-6a24b4e87eab
@@ -10,7 +9,31 @@ project:
   authors:
     - name: Adam Červenka
   github: AdamTheRobin/me
-  # To autogenerate a table of contents, run "jupyter book init --write-toc"
+
+  math:
+    # ── Kinematické proměnné (modrá) ────────────────────────
+    \kin: '{{\color{NavyBlue}{#1}}}'
+    # ── Strukturní funkce & formfaktory (tmavě zelená) ───────
+    \fns: '{{\color{ForestGreen}{#1}}}'
+    # ── Vazbové konstanty (cihlová) ──────────────────────────
+    \cpl: '{{\color{BrickRed}{#1}}}'
+    # ── Partonové distribuční funkce (fialová) ───────────────
+    \pdf: '{{\color{Violet}{#1}}}'
+    # ── Kvantová pole & operátory (půlnoční modrá) ───────────
+    \fld: '{{\color{MidnightBlue}{#1}}}'
+    # ── Klíčové výsledky (zlatá) ─────────────────────────────
+    \res: '{{\color{Goldenrod}{#1}}}'
+    # ── Zkratky ──────────────────────────────────────────────
+    \Qsq: '{\kin{Q^2}}'
+    \xvar: '{\kin{x}}'
+    \yvar: '{\kin{y}}'
+    \as: '{\cpl{\alpha_s}}'
+    \GE: '{\fns{G_E}}'
+    \GM: '{\fns{G_M}}'
+    \Ftwo: '{\fns{F_2}}'
+    \Fone: '{\fns{F_1}}'
+    \Lagr: '{\fld{\mathcal{L}}}'
+
   toc:
     - file: intro.md
     - file: cv.md
@@ -22,6 +45,18 @@ project:
             - file: Coding/CheatSheets/Sample.ipynb
             - file: Coding/CheatSheets/sampling_old.ipynb
             - file: Coding/CheatSheets/sampling.ipynb
+    - title: Physics
+      children:
+        - title: QCD — Příprava na zkoušku
+          children:
+            - file: physics/QCD/index.md
+            - file: physics/QCD/q11.md
+            - file: physics/QCD/q12.md
+            - file: physics/QCD/q13.md
+            - file: physics/QCD/q14.md
+            - file: physics/QCD/q15.md
+            - file: physics/QCD/q16.md
+            - file: physics/QCD/q17.md
 
   exports:
     - format: pdf
