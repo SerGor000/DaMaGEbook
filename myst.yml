@@ -33,6 +33,22 @@ project:
     \Ftwo: '{\fns{F_2}}'
     \Fone: '{\fns{F_1}}'
     \Lagr: '{\fld{\mathcal{L}}}'
+    # ── ZELW makra ───────────────────────────────────────────
+    \dv: '{\displaystyle\frac{\mathrm{d}#1}{\mathrm{d}#2}}'
+    \pdv: '{\displaystyle\frac{\partial #1}{\partial #2}}'
+    \munu: '{{\mu\nu}}'
+    \pps: '{\partial_\mu #1 \partial^\mu #1}'
+    \psibar: '{\bar\psi}'
+    \isum: '{#1^\mu #2_\mu}'
+    \pe: '{e^{#1}}'
+    \gammamu: '{\gamma^\mu}'
+    \bp: '{W^+}'
+    \bm: '{W^-}'
+    \bz: '{Z^0}'
+    \kz: '{\left( #1 \right)}'
+    \hz: '{\left[ #1 \right]}'
+    \sz: '{\left\{ #1 \right\}}'
+    \lagrangian: '{\mathscr{L}}'
 
   toc:
     - file: intro.md
@@ -57,6 +73,21 @@ project:
             - file: physics/QCD/q15.md
             - file: physics/QCD/q16.md
             - file: physics/QCD/q17.md
+        - title: Elektroslabé interakce — Příprava na zkoušku
+          children:
+            - file: physics/ZELW/index.md
+            - file: physics/ZELW/prehled.md
+            - file: physics/ZELW/lagrangiany.md
+            - file: physics/ZELW/q01.md
+            - file: physics/ZELW/q02.md
+            - file: physics/ZELW/q03.md
+            - file: physics/ZELW/q04.md
+            - file: physics/ZELW/q05.md
+            - file: physics/ZELW/q06.md
+            - file: physics/ZELW/q07.md
+            - file: physics/ZELW/q08.md
+            - file: physics/ZELW/q09.md
+            - file: physics/ZELW/q10.md
 
   exports:
     - format: pdf
